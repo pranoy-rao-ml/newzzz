@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="Top news by category from free, non-paywalled sources.">
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0b0f14" media="(prefers-color-scheme: dark)">
+  <title>NewsFeed</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-slate-50 text-slate-900 dark:bg-[#0b0f14] dark:text-slate-100 antialiased">
+  <header class="sticky top-0 z-10 bg-white/90 dark:bg-[#0b0f14]/90 backdrop-blur border-b border-slate-200 dark:border-slate-800">
+    <div class="max-w-3xl mx-auto px-4 pt-3 flex items-baseline justify-between">
+      <h1 class="text-lg font-semibold tracking-tight">NewsFeed</h1>
+      <p id="updated" class="text-xs text-slate-500 dark:text-slate-400"></p>
+    </div>
+    <nav id="categories" class="max-w-3xl mx-auto px-4 py-2 flex gap-2 overflow-x-auto no-scrollbar" aria-label="Categories"></nav>
+  </header>
+
+  <main class="max-w-3xl mx-auto px-4 py-4">
+    <div id="status" class="text-sm text-slate-500 dark:text-slate-400 py-8 text-center">Loading…</div>
+    <ul id="stories" class="grid gap-3"></ul>
+  </main>
+
+  <footer class="max-w-3xl mx-auto px-4 pb-8 text-xs text-slate-500 dark:text-slate-400" id="sources"></footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

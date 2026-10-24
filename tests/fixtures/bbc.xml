@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/"><channel><title>BBC</title>
+<item><title>Earthquake strikes central Japan, tsunami warning issued</title>
+<description><![CDATA[<p>A magnitude 7.1 quake hit the region &amp; officials urged residents to move to higher ground.</p>]]></description>
+<link>https://www.bbc.co.uk/news/articles/abc123?at_medium=RSS&amp;at_campaign=rss</link>
+<pubDate>{NOW}</pubDate><media:thumbnail url="https://ichef.bbci.co.uk/x.jpg" width="240" height="135"/></item>
+<item><title>Local bakery wins award</title><description>Local bakery wins award</description>
+<link>https://www.bbc.co.uk/news/articles/bake1</link><pubDate>{NOW}</pubDate></item>
+<item><title>Very old story</title><description>old</description>
+<link>https://www.bbc.co.uk/news/articles/old</link><pubDate>Mon, 01 Jan 2024 10:00:00 GMT</pubDate></item>
+</channel></rss>
